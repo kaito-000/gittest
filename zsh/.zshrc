@@ -1,5 +1,3 @@
-export PATH="$(aube bin -g):$PATH"
-
 # mise
 if command -v mise >/dev/null 2>&1; then
   eval "$(mise activate zsh)"
@@ -66,3 +64,5 @@ alias ....='cd ../../..'
 alias gs='git status --short'
 alias gd='git diff'
 alias gl='git log --oneline --graph --decorate --all -20'
+
+export PATH="$(aube bin -g):$PATH"
